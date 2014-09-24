@@ -27,7 +27,8 @@ if ($fh) {
             } else if (strpos($item->text, 'iPhn6') === false) {
                 continue;
             }
-            echo "Found {$item->text} with value {$item->value}\n";
+            //echo "Found {$item->text} with value {$item->value}\n";
+            echo "Found {$item->text}\n";
         }
     }
 }
